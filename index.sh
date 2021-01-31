@@ -1,0 +1,1 @@
+node node_modules/ganache-cli/cli.js -m "cherry garden lava garden shop vast lava lava vast album royal royal" -a 1 --defaultBalanceEther 10000000000000000 -h "https://cryptoice-node-server.herokuapp.com/" -p 8545
