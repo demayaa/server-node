@@ -8,6 +8,9 @@ const server = ganache.server({
     _chainIdRpc: 1332,
     defaultTransactionGasLimit: '0x99f90000'
 });
-server.listen(8454, function(err, blockchain) {
+server.get('*', (req,res) => {
+    res.send('server connect')
+})
+server.listen(3000, function(err, blockchain) {
     console.log('server connect')
 });
